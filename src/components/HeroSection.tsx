@@ -28,7 +28,7 @@ export default function HeroSection() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.2 }}
             >
-              welcome to my portofolio everyone!👋 
+              welcome to my portofolio everbody!👋 
             </motion.span>
           </motion.div>
 
