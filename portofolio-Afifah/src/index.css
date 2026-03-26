@@ -27,7 +27,7 @@
   --muted: 200 60% 25%;
   --muted-foreground: 0 0% 95%;
 
-  /* Accent: aqua highlight */
+  /* Accent: aqua hig hlight */
   --accent: 185 65% 45%;
   --accent-foreground: 0 0% 100%;
 
@@ -129,8 +129,8 @@
   );
 
   /* deeper glow like underwater light rays */
-  --shadow-glow: 0 0 50px hsl(190 80% 60% / 0.35);
-  --shadow-card: 0 4px 20px hsl(0 0% 0% / 0.35);
+  --shadow-glow: 0 0 60px hsla(190, 100%, 74%, 0.904);
+  --shadow-card: 0 4px 20px hsla(196, 100%, 73%, 0.893);
   --shadow-card-hover: 0 8px 30px hsl(190 80% 60% / 0.18);
 
   --sidebar-background: 210 40% 10%;
