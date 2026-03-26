@@ -32,7 +32,7 @@ export default function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-tr from-cyan-400/30 to-blue-600/30 blur-2xl rounded-full"></div>
 
               <img
-                src="/foto web.jpeg/"   // ganti ini dengan foto kamu (taruh di public folder)
+                src="/foto baru.jpeg/"   // ganti ini dengan foto kamu (taruh di public folder)
                 alt="Afifah"
                 className="relative w-72 h-72 md:w-96 md:h-96 object-cover rounded-full border-4 border-white/20 shadow-glow"
               />
