@@ -100,7 +100,7 @@ export default function HeroSection() {
                 size="lg"
                 className="rounded-full px-8"
                 onClick={() => {
-                  const element = document.querySelector('#contact');
+                  const element = document.querySelector('afifahrrizqi@gmail.com');
                   if (element) element.scrollIntoView({ behavior: 'smooth' });
                 }}
               >
