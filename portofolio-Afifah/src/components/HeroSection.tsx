@@ -116,14 +116,16 @@ export default function HeroSection() {
               className="flex items-center justify-center md:justify-start gap-6"
             >
               {[
-                { icon: Github, href: '#', label: 'GitHub' },
+                { icon: Github, href: 'https://github.com/afifahrayyana/portofolio-Afifah.git', label: 'GitHub' },
                 { icon: Linkedin, href: '#', label: 'LinkedIn' },
                 { icon: Youtube, href: '#', label: 'YouTube' },
-                { icon: Instagram, href: '#', label: 'Instagram' },
+                { icon: Instagram, href: 'https://www.instagram.com/fifahrayyana?igsh=MXExb2t2ampxZGE2Mw==', label: 'Instagram' },
               ].map((social) => (
                 <motion.a
                   key={social.label}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 rounded-full glass hover:shadow-glow transition-all duration-300"
                   whileHover={{ scale: 1.1, y: -2 }}
                   whileTap={{ scale: 0.95 }}
