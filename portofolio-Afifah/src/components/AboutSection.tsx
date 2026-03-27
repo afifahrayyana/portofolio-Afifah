@@ -9,6 +9,19 @@ export default function AboutSection() {
     { icon: Rocket, value: '5+', label: 'Tahun Pengalaman' },
   ];
 
+const accordionData = [
+  {
+    title: "Art & Creative",
+    content:
+      "Saya aktif di dunia seni seperti musik, melukis, dan menggambar sebagai cara mengekspresikan diri dan mengembangkan kreativitas.",
+  },
+  {
+    title: "Web & Design Interest",
+    content:
+      "Saya juga tertarik dalam pembuatan website, terutama pada bagian desain dan bagaimana membuat tampilan yang menarik dan nyaman digunakan.",
+  },
+];
+
   return (
     <section id="about" className="py-20 md:py-32 bg-muted/30">
       <div className="container mx-auto px-4">
