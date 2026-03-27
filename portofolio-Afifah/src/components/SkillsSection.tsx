@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-kemampuan akademis = {
+const skills = {
   Bahasa: [
     { name: 'Bahasa inggris', level: 95 },
     { name: 'Bahasa indonesia', level: 90 },
@@ -60,7 +60,7 @@ export default function SkillsSection() {
         >
           <span className="text-primary font-medium mb-2 block">Keahlian</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">
-            Kemampuan akademis
+          Kemampuan akademis
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full" />
         </motion.div>
@@ -78,10 +78,10 @@ export default function SkillsSection() {
               <div className="p-3 rounded-xl bg-primary/10">
                 <span className="text-2xl">🎨</span>
               </div>
-              <h3 className="font-display text-xl font-bold">Frontend</h3>
+              <h3 className="font-display text-xl font-bold">Bahasa</h3>
             </div>
             <div className="space-y-4">
-              {skills.frontend.map((skill, index) => (
+              {skills.Bahasa.map((skill, index) => (
                 <SkillBar key={skill.name} {...skill} delay={index * 0.1} />
               ))}
             </div>
@@ -99,10 +99,10 @@ export default function SkillsSection() {
               <div className="p-3 rounded-xl bg-primary/10">
                 <span className="text-2xl">⚙️</span>
               </div>
-              <h3 className="font-display text-xl font-bold">Backend</h3>
+              <h3 className="font-display text-xl font-bold">IPS</h3>
             </div>
             <div className="space-y-4">
-              {skills.backend.map((skill, index) => (
+              {skills.IPS.map((skill, index) => (
                 <SkillBar key={skill.name} {...skill} delay={index * 0.1} />
               ))}
             </div>
@@ -120,10 +120,10 @@ export default function SkillsSection() {
               <div className="p-3 rounded-xl bg-primary/10">
                 <span className="text-2xl">🛠️</span>
               </div>
-              <h3 className="font-display text-xl font-bold">Tools &amp; Lainnya</h3>
+              <h3 className="font-display text-xl font-bold">IPA</h3>
             </div>
             <div className="space-y-4">
-              {skills.tools.map((skill, index) => (
+              {skills.IPA.map((skill, index) => (
                 <SkillBar key={skill.name} {...skill} delay={index * 0.1} />
               ))}
             </div>
