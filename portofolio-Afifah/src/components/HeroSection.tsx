@@ -65,7 +65,7 @@ export default function HeroSection() {
             >
               Hey there,
               <br />
-              <span className="text-gradient">Afifah here!👋</span>
+              <span className="text-gradient">Afifah here!🫧</span>
             </motion.h1>
 
             <motion.p
@@ -100,8 +100,8 @@ export default function HeroSection() {
                 size="lg"
                 className="rounded-full px-8"
                 onClick={() => {
-                  const element = document.querySelector('afifahrrizqi@gmail.com');
-                  if (element) element.scrollIntoView({ behavior: 'smooth' });
+                  window.location.href = "mailto:afifahrrizqi@gmail.com";
+                  
                 }}
               >
                 Hubungi Saya
