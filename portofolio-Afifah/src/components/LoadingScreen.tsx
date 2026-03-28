@@ -20,7 +20,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onFinish }) => {
         alignItems: "center",
         height: "100vh",
         flexDirection: "column",
-        backgroundColor: "hsl(200 60% 42%)",
+        backgroundColor: " hsl(185 65% 50%)",
       }}
     >
       <Lottie
